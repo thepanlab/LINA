@@ -3,7 +3,7 @@ import tensorflow as tf
 
 class LINA_Network(tf.keras.Model):
     def __init__(self, num_feature, list_reduc, l2_strength, dropout_act=False, classification=False,bn=True):
-        super(LINNAA_Network, self).__init__()
+        super(LINA_Network, self).__init__()
         self.list_reduc = list_reduc
         self.num_feature = num_feature
         self.l2_strength = l2_strength
